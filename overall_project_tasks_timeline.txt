@@ -1,0 +1,56 @@
+Nanda:
+* Help Venkat on the Model Ensemble pipeline
+* Perform SVM, and Boosting algorithm (varying 6 imputter, 2 scaler, 2 pca, n thresholds)
+* Perform XGBoost algorithm (varying 6 imputter, 2 scaler, 2 pca, n thresholds)
+
+  
+Venkat:
+* Enhance code to extend imputter to include K-Nearest Neighbors
+* Start writing framework pipeline code for the Model Ensemble
+
+  
+Deepak:
+* Featurre analysis - find what predictors have multicollinearity and analyze what can be dropped
+* Investigate if features can be dropped based on a mutated new fields using Particile Physics formulas
+* Determine what rows/observations can be dropped on missingness impact (if at all)
+* Use R or Phython to create visualizations on feature analysis and engineering
+
+  
+Entire Team:
+* Perform all single basic algorithms + determine what features to use + document all AMS scores
+* Start documenting and sending me your materials for slides (in PPT is ok)
+* When you're writing code, fork your own first, then after full unit test, merge into higgs_adv_new.py
+* Be sure to write code that is self-contained so you do not affect other functions within the entire source file
+* stretch goal: create and perform ensemble train/validate/testing pipeline
+
+
+Numerical and Visual EDA
+
+o Missingness
+o Imputation
+
+Data Transformation
+
+o Correlations, histograms , density 
+o PCA
+o K means
+o Feature Engineering
+
+
+
+Formal Modeling
+
+
+Model Performance
+
+
+Interpretation
+
+
+
+
+
+
+The first is kinda like think about how your results jive with kinda what you expected to find when you where first asking the question. And also you wanna think about the kind the totality of the evidence that you've developed. At this point, you've probably done many different analysis, you probably fit in many different models. And so you have many different bits of information to think about and part of the interpretation phase is to kind of assemble all that information to weigh the different pieces of evidence. So that you know what kind or which are more reliable, which are more important than others and to get a sense of the totality of evidence with respect to kind of answering the question. The last phase is the communication phase. Any data science project that is successful will wanna communicate its findings to some sort of audience. Now that audience may be internal to your organization, it may be external, it may be to a large audience or even just a few people. But communicating your findings is an essential part of data science in it because it informs the data analysis process and a it translates your findings into action. So that's the last part which is not a formal part of a data science project necessarily, but often there will be some decision that needs to be made or some action that needs to be taken. And the data science project will have been conducted in support of making a decision or taking an action. So that last phase will depend on more than just the results of the data size or the data analysis, but may require inputs from many different parts of an organization or from other stakeholders. So ultimately if the decision is made, the data analysis that was done will inform that decision and will support and the evidence that was collected will support that decision. So these are roughly the five phases of a data science project. There's the question, there's exploratory data analysis, there's formal modeling, and there's interpretation, and there's communication. Now, there is another approach that can be taken, it's very often taken in data science project. And that is to really start with the data and to start with an exploratory data analysis. So often there will be a data set available, But, it won't be immediately clear kind of what the data set will be useful for. So it can be useful to kind of do some exploratory data analysis, to look at the data, to summarize it a little bit, make some plots, and see what's there. And to generate some interesting questions based on the data. So this is sometimes called hypothesis generating because it kind of produces questions that were already there. Once you've produced the questions that you wanna ask, based on your initial kind of exploratory data analysis, it may be useful to kind of get more data or other data to kind of do an exploratory data analysis that's specific to your question now. And then continue with the formal modeling, interpretation and communication. One thing that you have to be wary of is to do the exploratory data analysis in one data set, develop the question, and then go back to the same data set. And pretend like you hadn't done the exploratory data analysis before and come at it with say a fresh question. That goes on to the rest of the stages. This could often be a recipe for kind of, for bias in your analysis. Because the results were derived from the same data set. So it's important to be careful about doing that and to try to obtain other data when you're using the data to generate the questions in the first place. So this is the secondary approach to data science that can be very useful and can often result in many interesting questions that are generated from the data. Data science projects have a variety of phases and it's important to kind of understand which phase you're in so that you know kind of how to progress and how to move forward with any data science project.
+
+

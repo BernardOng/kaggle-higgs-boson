@@ -1,0 +1,105 @@
+8/17/2016
+
+Joined the group 
+Had awesome lunch courtesy Venkat 
+Bernard for president
+___________________________________________________________________________
+
+8/20/2016
+
+o Did Missingness analysis
+P Added missigness plot
+
+Conclusions
+
+o PRI_jet_num is a categorical variable telling which of 4 { jets(1,2,3) and no (0) jet }event happened 
+o scale all the data except PRI_jet_num  before using algorithims 
+o 7 variables are missing more than 70 % of data in training set 
+	"DER_mass_transverse_met_lep" 
+	"DER_mass_vis"
+	"DER_pt_h"
+	"DER_deltaeta_jet_jet"       
+	"DER_pt_tot"
+	"DER_sum_pt"
+	"DER_pt_ratio_lep_tau" 
+
+ooo From Kaggle
+~~~it can happen that for some entries some variables are meaningless or cannot be computed; in this case, their value is −999.0, which is outside the normal range of all variables
+
+
+Another reason to not impute -999.0
+
+
+___________________________________________________________________________
+
+8/20/2016
+
+o Did Numerical and graphical EDA on response variables (Labels and weights) 
+P Added 3  histograms for 1) signal ,2) Background and 3) signal + background 
+
+Conclusions 
+
+o Weights and Labels are dependent on each other from chisquare test of dependence
+o Signal events have low weights and Background events have high weights
+o Signal events weight range is exclusively separated from background event weight range 
+o Signal seems to have only three weights Looks like they are looking for three channels of Higgs Boson 
+
+
+
+
+___________________________________________________________________________
+
+8/20/2016
+
+o Visual EDA continued
+P Correlation Plots , significance , confidence intervals 
+P Histograms and density plots of all variables 
+
+?????? Need to check amount of data dependency of all plots
+
+Conclusions
+Lots of plots Work in progress 
+
+
+___________________________________________________________________________
+
+8/21/2016
+
+o Reading Documents of Higgs Kaggle Challenge for more insights
+
+##############################################################
+
+Source  https://www.kaggle.com/c/higgs-boson/data
+
+-> variables prefixed with PRI (for PRImitives) are “raw” quantities about the bunch collision as measured by the detector.
+-> variables prefixed with DER (for DERived) are quantities computed from the primitive features, which were selected by  the physicists of ATLAS
+
+Conclusions
+
+1) Not worth spending time coming up with the formula It's already done for us 
+
+
+-> it can happen that for some entries some variables are meaningless or cannot be computed; in this case, their value is −999.0, which is outside the normal range of all variables
+
+
+Conclusions
+
+1)Imputation is a bad idea and wrong because −999.0 is not missing at all 
+2)-999.0 indicates nothing is meant to be there
+3)## Make a feature indicating level of "Nothingness"
+
+
+##############################################################
+
+
+
+-> The Higgs boson has seen first in three distinct decay channels
+
+#Confirms histogram plot of s vs weights  
+
+-> 
+
+o Finished graphical EDA , final presentable density , histogram , correlation and PCA plots 
+
+-- To do inferences and feature engineering
+

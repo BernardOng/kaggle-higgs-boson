@@ -1,0 +1,34 @@
+Presentation Slides Table of Contents:
+
+1. Higgs Boson Introduction
+   - challenge definition
+   - success metrics (AMS)
+   
+2. Strategy and Approach
+   - technology stack
+   - process flow
+   - feature analysis and feature engineering
+   - models, emsembles, and hyper-ensembles used
+   
+3. EDA and Feature Engineering
+   - PCA Results
+   - Correlation Results
+   - Ridge and Lasso Regularization Results
+   
+3. Training and Cross-Validation
+   - parameters and hyperparameters
+   - patterns and trends
+   - tuning and optimzation
+   
+4. Results and Findings
+   - interpretation
+   - discoveris and insights
+   - final AMS score
+   
+5. Lessons Learned
+   - what we did well
+   - what we would have liked to do
+
+6. Conclusion
+   - Summary and Synopsis
+   - Final thoughts

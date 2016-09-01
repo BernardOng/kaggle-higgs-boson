@@ -1,0 +1,11 @@
+Source Code
+http://www.johnwittenauer.net/lessons-learned-from-the-higgs-boson-kaggle-challenge/
+
+More Background Info and Approaches (from NYC DSA Former Students)
+http://blog.nycdatascience.com/student-works/11652/
+http://blog.nycdatascience.com/student-works/11600/
+http://blog.nycdatascience.com/student-works/centaurs-higgs-boson-kaggle-competition/
+http://blog.nycdatascience.com/student-works/higgs-boson-machine-learning-challenge-3/
+http://blog.nycdatascience.com/student-works/higgs-boson-machine-learning-challenge-2/
+http://blog.nycdatascience.com/student-works/higgs-boson-machine-learning-challenge/
+http://blog.nycdatascience.com/student-works/forecasting-the-higgs-boson-signal/

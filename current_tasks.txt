@@ -1,0 +1,24 @@
+Nanda:
+* Help Venkat on the Model Ensemble pipeline
+* Perform SVM, and Boosting algorithm (varying 6 imputter, 2 scaler, 2 pca, n thresholds)
+* Perform XGBoost algorithm (varying 6 imputter, 2 scaler, 2 pca, n thresholds)
+
+  
+Venkat:
+* Enhance code to extend imputter to include K-Nearest Neighbors
+* Start writing framework pipeline code for the Model Ensemble
+
+  
+Deepak:
+* Featurre analysis - find what predictors have multicollinearity and analyze what can be dropped
+* Investigate if features can be dropped based on a mutated new fields using Particile Physics formulas
+* Determine what rows/observations can be dropped on missingness impact (if at all)
+* Use R or Phython to create visualizations on feature analysis and engineering
+
+  
+Entire Team:
+* Perform all single basic algorithms + determine what features to use + document all AMS scores
+* Start documenting and sending me your materials for slides (in PPT is ok)
+* When you're writing code, fork your own first, then after full unit test, merge into higgs_adv_new.py
+* Be sure to write code that is self-contained so you do not affect other functions within the entire source file
+* stretch goal: create and perform ensemble train/validate/testing pipeline
